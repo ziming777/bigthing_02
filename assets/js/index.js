@@ -3,7 +3,7 @@ $(function () {
     getUserInfo()
     var layer = layui.layer
     // 点击按钮实现退出功能
-    
+
     $('#btnLogout').on('click', function () {
         // 提示用户是否确认退出
         layer.confirm('确定退出登录吗？', { icon: 3, title: '提示' }, function (index) {
